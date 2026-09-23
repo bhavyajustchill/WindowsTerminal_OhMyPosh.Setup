@@ -57,7 +57,7 @@ Locate your PowerShell profile path by running `echo $PROFILE`. Replace or updat
 Set-PSReadLineOption -PredictionSource None
 
 # Initialize Oh My Posh via the live configuration
-oh-my-posh init pwsh --config "F:\cli\oh-my-posh\themes\bhavyajustchill.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "https://github.com/bhavyajustchill/WindowsTerminal_OhMyPosh.Setup/raw/refs/heads/master/bhavyajustchill.omp.json" | Invoke-Expression
 ```
 
 ### 2. Apply Windows Terminal Layouts
