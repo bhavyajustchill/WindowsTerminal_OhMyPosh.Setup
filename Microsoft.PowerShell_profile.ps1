@@ -1,2 +1,2 @@
 Set-PSReadLineOption -PredictionSource None
-oh-my-posh init pwsh --config "F:\cli\oh-my-posh\themes\bhavyajustchill.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "https://github.com/bhavyajustchill/WindowsTerminal_OhMyPosh.Setup/raw/refs/heads/master/bhavyajustchill.omp.json" | Invoke-Expression
